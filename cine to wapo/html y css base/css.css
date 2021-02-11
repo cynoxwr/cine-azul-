@@ -5,3 +5,13 @@
 #logo {
     position: relative;
 }
+
+#section1{
+    background-image: url("../imagenes/backgroundSerieA.png");
+    color: rgb(149, 255, 0);
+}
+
+#section2{
+    background-image: url("../imagenes/backgroundSerieB.png");
+    color: rgb(230, 255, 4);
+}
