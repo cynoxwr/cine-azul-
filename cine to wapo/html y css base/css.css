@@ -16,6 +16,15 @@
     color: rgb(230, 255, 4);
 }
 
+#sectionEvents{
+    background-image: url("../imagenes/eventos.jpg");
+    color: rgb(230, 255, 4);
+}
+
+#divEvents {
+    padding-bottom: 6em;
+}
+
 .map-container-5{
     overflow:hidden;
     padding-bottom:56.25%;
