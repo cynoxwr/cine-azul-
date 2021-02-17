@@ -1,0 +1,57 @@
+.text-center{
+    background-color: #0d91fd; 
+}
+
+#logo {
+    position: relative;
+}
+
+#section1{
+    background-image: url("../imagenes/backgroundSerieA.png");
+    color: rgb(149, 255, 0);
+}
+
+#section2{
+    background-image: url("../imagenes/backgroundSerieB.png");
+    color: rgb(230, 255, 4);
+}
+
+#sectionEvents{
+    background-image: url("../imagenes/eventos.jpg");
+    color: rgb(230, 255, 4);
+}
+
+#divEvents {
+    padding-bottom: 6em;
+}
+
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.margenes{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.margenes2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#margenes2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
