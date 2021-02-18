@@ -1,4 +1,4 @@
-.text-center{
+footer{
     background-color: #0d91fd; 
 }
 
@@ -7,17 +7,18 @@
 }
 
 #section1{
-    background-image: url("../imagenes/backgroundSerieA.png");
+    background-image: url("../img/backgroundSerieA.png");
+    background-color: rgba(0,0,200,1);
     color: rgb(149, 255, 0);
 }
 
 #section2{
-    background-image: url("../imagenes/backgroundSerieB.png");
+    background-image: url("../img/backgroundSerieB.png");
     color: rgb(230, 255, 4);
 }
 
 #sectionEvents{
-    background-image: url("../imagenes/eventos.jpg");
+    background-image: url("../img/eventos.jpg");
     color: rgb(230, 255, 4);
 }
 
