@@ -2,13 +2,16 @@ footer{
     background-color: #0d91fd; 
 }
 
+#botonheader {
+    background-color: #0d91fd; 
+}
+
 #logo {
     position: relative;
 }
 
 #section1{
     background-image: url("../img/backgroundSerieA.png");
-    background-color: rgba(0,0,200,1);
     color: rgb(149, 255, 0);
 }
 
@@ -67,6 +70,9 @@ body{
     height: 100%;
 }
 
-.album{
-    padding: -10em;
+#rowregalo{
+    background: transparent;
 }
+ #colorrowregalo{
+     color:rgb(182, 197, 49);
+ }
