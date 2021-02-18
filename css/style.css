@@ -20,14 +20,8 @@
 
 @media (max-width:768px) {
     .responsiveCard{
-        width: 30.374rem;
+        width: 21.3rem;
     }
 }
-@media (min-width: 768px){
 
 
-.ps-md-3 {
-    padding-left: 1rem!important;
-    padding-left: 1rem!important;
-}
-}
