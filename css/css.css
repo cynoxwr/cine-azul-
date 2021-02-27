@@ -81,7 +81,9 @@ body{
     background-color: #eee
 }
 
-#cajacookies {
+
+
+.cookie-consent {
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -91,7 +93,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
-    background: #292929;
+    background-color: black;
     z-index: 120;
     cursor: pointer;
     border-radius: 0px;
@@ -99,14 +101,18 @@ body{
     align-items: center;
     justify-content: center
 }
+.cookiealert.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
 
-#cajacookies button {
-    height: 20px;
-    width: 104px;
-    color: #fff;
-    font-size: 12px;
-    line-height: 10px;
-    border-radius: 3px;
-    border: 1px solid green;
-    background-color: green
+.cookiealert a {
+    text-decoration: underline
+}
+
+.cookiealert .acceptcookies {
+    margin-left: 10px;
+    vertical-align: baseline;
 }

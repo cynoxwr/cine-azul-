@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CINEMATOGRAFO</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" type="text/css" href="./css/css.css">
   <link href="./css/style.css?a" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
@@ -84,7 +85,6 @@
             <div class="carousel-caption text-start">
               <h1>Bienvenido a este nuestro cine.</h1>
               <p></p>
-              <p><a class="btn btn-lg btn-primary" href="registro.html" role="button">Registrate ahora</a></p>
             </div>
           </div>
         </div>
@@ -113,11 +113,11 @@
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+   
       </a>
       <a class="carousel-control-next" href="#myCarousel" role="button"  data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true" ></span>
-        <span class="visually-hidden">Next</span>
+  
       </a>
     </div>
     <p></p>
@@ -238,7 +238,6 @@
     </div>
   </div>
 </div>
-
   </body>
 
 <!-- MODAL -->
@@ -434,13 +433,17 @@
       <!-- Copyright -->
     </footer>
   </footer>
-  <div id="cajacookies">
-    <p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar éste mensaje</button>
-    Éste sitio web usa cookies, si permanece aquí acepta su uso.
-    Puede leer más sobre el uso de cookies en nuestra <a href="politica.html">política de privacidad</a>.
-    </p>
-    </div>
-  <script src="js/js.js"></script>
+  <!-- START Bootstrap-Cookie-Alert -->
+<div class="cookie-consent" role="alert">
+  <b>Quieres cookies?</b> &#x1F36A; Nosotros usamos las cookies para mejorar tu experiencia en nuestra pagina <a href="https://cookiesandyou.com/" target="_blank">Saber más</a>
+
+  <button type="button" class="btn btn-primary btn-sm acceptcookies">
+      Aceptar cookies
+  </button>
+</div>
+<!-- Include cookiealert script -->
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="./js/js.js"></script>
 <script src="login/js/placeholders.min.js"></script> 
   <script src="login/js/main.js"></script>  
 </html>
